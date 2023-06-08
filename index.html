@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Teste de Personalidade</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="estilos.css" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um teste de personalidade divertido para adolescentes. Descubra seu perfil através de perguntas sobre sua personalidade.">
+    
+    <!-- Meta tags de regionalização -->
+    <meta name="geo.region" content="BR">
+    <meta name="geo.placename" content="São Paulo">
+    <meta name="geo.position" content="-23.5505;-46.6333">
+    <meta name="ICBM" content="-23.5505, -46.6333">
+    <meta name="og:locale" content="pt_BR">
+    <meta name="og:region" content="BR">
+    <meta name="og:country-name" content="Brasil">
+</head>
+</head>
+
+<body>
+    <h1>Teste de Personalidade</h1>
+
+    <form id="wizard-form">
+        <div id="step1" class="form-step step1">
+            <h3>Pergunta 1</h3>
+            <label>
+                <input type="radio" name="resposta1" value="a" data-perfil="aventureiro">
+                Adoro estar no meio da agitação.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta1" value="b" data-perfil="equilibrado">
+                Gosto de multidões, mas também preciso de momentos de tranquilidade.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta1" value="c" data-perfil="conservador">
+                Prefiro evitar multidões e estar em ambientes mais calmos.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta1" value="d" data-perfil="introvertido">
+                Multidões me deixam desconfortável, prefiro estar sozinho.
+            </label><br>
+        </div>
+
+        <div id="step2" class="form-step step2">
+            <h3>Pergunta 2</h3>
+            <label>
+                <input type="radio" name="resposta2" value="a" data-perfil="aventureiro">
+                Gosto de confrontar o problema de frente e resolver a situação.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta2" value="b" data-perfil="equilibrado">
+                Tento encontrar um equilíbrio e buscar uma solução pacífica.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta2" value="c" data-perfil="conservador">
+                Evito conflitos e prefiro manter a paz.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta2" value="d" data-perfil="introvertido">
+                Fico desconfortável em situações de conflito e prefiro me afastar.
+            </label><br>
+        </div>
+
+        <div id="step3" class="form-step step3">
+            <h3>Pergunta 3</h3>
+            <label>
+                <input type="radio" name="resposta3" value="a" data-perfil="aventureiro">
+                Sou extrovertido(a) e adoro conhecer pessoas novas.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta3" value="b" data-perfil="equilibrado">
+                Sou amigável e aberto(a) a conhecer pessoas novas.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta3" value="c" data-perfil="conservador">
+                Prefiro seguir as ideias tradicionais e evito mudanças.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta3" value="d" data-perfil="introvertido">
+                Fico desconfortável em situações sociais e prefiro me afastar.
+            </label><br>
+        </div>
+
+        <div id="step4" class="form-step step4">
+            <h3>Pergunta 4</h3>
+            <label>
+                <input type="radio" name="resposta4" value="a" data-perfil="aventureiro">
+                Gosto de experimentar novas ideias e sou aberto(a) a mudanças.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta4" value="b" data-perfil="equilibrado">
+                Analiso cuidadosamente antes de aceitar novas ideias.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta4" value="c" data-perfil="conservador">
+                Sinto-me desconfortável sob pressão e prefiro evitar situações estressantes.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta4" value="d" data-perfil="introvertido">
+                Tenho resistência a novas ideias e prefiro seguir o que já é conhecido.
+            </label><br>
+        </div>
+
+        <div id="step5" class="form-step step5">
+            <h3>Pergunta 5</h3>
+            <label>
+                <input type="radio" name="resposta5" value="a" data-perfil="aventureiro">
+                Desfruto da adrenalina e de situações emocionantes.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta5" value="b" data-perfil="equilibrado">
+                Busco equilíbrio e estabilidade em minha vida.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta5" value="c" data-perfil="conservador">
+                Prezo pela segurança e pela previsibilidade.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta5" value="d" data-perfil="introvertido">
+                Prefiro uma rotina calma e tranquila.
+            </label><br>
+        </div>
+
+        <div id="step6" class="form-step step6">
+            <h3>Pergunta 6</h3>
+            <label>
+                <input type="radio" name="resposta6" value="a" data-perfil="aventureiro">
+                Busco desafios e gosto de me superar.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta6" value="b" data-perfil="equilibrado">
+                Tento encontrar um equilíbrio
+
+                entre desafios e conforto.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta6" value="c" data-perfil="conservador">
+                Prefiro evitar riscos e permanecer em minha zona de conforto.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta6" value="d" data-perfil="introvertido">
+                Evito situações desafiadoras e prefiro evitar riscos.
+            </label><br>
+        </div>
+
+        <div id="step7" class="form-step step7">
+            <h3>Pergunta 7</h3>
+            <label>
+                <input type="radio" name="resposta7" value="a" data-perfil="aventureiro">
+                Sou bastante expressivo(a) e gosto de compartilhar minhas emoções.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta7" value="b" data-perfil="equilibrado">
+                Expresso minhas emoções de forma equilibrada.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta7" value="c" data-perfil="conservador">
+                Prefiro manter minhas emoções para mim mesmo(a).
+            </label><br>
+            <label>
+                <input type="radio" name="resposta7" value="d" data-perfil="introvertido">
+                Sou reservado(a) e guardo minhas emoções para mim mesmo(a).
+            </label><br>
+        </div>
+
+        <div id="step8" class="form-step step8">
+            <h3>Pergunta 8</h3>
+            <label>
+                <input type="radio" name="resposta8" value="a" data-perfil="aventureiro">
+                Sou flexível e me adapto facilmente a novas situações.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta8" value="b" data-perfil="equilibrado">
+                Consigo me adaptar às mudanças, mas também valorizo minha estabilidade.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta8" value="c" data-perfil="conservador">
+                Prefiro manter as coisas como estão e evito mudanças desnecessárias.
+            </label><br>
+            <label>
+                <input type="radio" name="resposta8" value="d" data-perfil="introvertido">
+                Sou resistente a mudanças e gosto de seguir uma rotina estável.
+            </label><br>
+        </div>
+
+        <button type="button" id="botao-proximo" class="btn btn-primary">Anterior</button>
+
+        <button type="button" id="botao-anterior" class="btn btn-primary">Próxima</button>
+
+        <button type="button" id="botao-processar" class="btn btn-primary">Meu Resultado</button>
+
+        <div id="container-resposta" class="container-resposta">
+
+        </div>
+
+        <script src="teste.js"></script>
+    </form>
+</body>
+
+</html>
