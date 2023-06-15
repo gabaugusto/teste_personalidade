@@ -60,9 +60,7 @@ Você pode adicionar mais perguntas, duplicando a estrutura acima e incrementand
 
 ## Contribuindo
 
-Se você deseja contribuir para este projeto, sinta-se à vontade para fazer um fork do repositório, fazer as alterações desejadas e enviar
-
- um pull request. Será um prazer revisar e incorporar suas contribuições.
+Se você deseja contribuir para este projeto, sinta-se à vontade para fazer um fork do repositório, fazer as alterações desejadas e enviar um pull request. Será um prazer revisar e incorporar suas contribuições.
 
 ## Licença
 
